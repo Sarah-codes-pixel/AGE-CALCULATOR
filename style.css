@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-image: url('https://i.imgur.com/AH4Qp8H.jpg'); /* pastel clouds */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 320px;
+  }
+  
+  h1 {
+    color: #ff69b4;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 80px;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #ffd1dc;
+    border-radius: 12px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #fff0f5;
+  }
+  
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ffb6c1;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff69b4;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    background-color: #ffe4e1;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #ffb6c1;
+  }
+  
